@@ -12,8 +12,12 @@ public class Palindrome {
 			reverse = reverse+palindrome.charAt(i);
 			
 		}
-		if(palindrome.equals(reverse.trim()))
-		System.out.println("palindrome");
+		if(palindrome.equals(reverse.trim())) {
+		System.out.println("palindrome");}
+		else {
+			System.out.println("Not a palindrome");
+		}
+			
 
 	}
 
